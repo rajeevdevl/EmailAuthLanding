@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    background-color: var(--main-bg-color);
+    overflow-x: hidden;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+ 
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  
+h3 {
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  
+h4 {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+h5 {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  h6 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: var(--text-color-p);
+  }
+  
+  :root {
+    --main-bg-color: #000000;
+    --sec-color: #3C67FF;
+    --text-color: #ffffff; 
+    --text-color-p: #ffffff;
+    ; 
+  }
+  
+  
+
+  .hero_section {
+    margin-top: -120px !important;
+    /* height: 100vh; */
+    padding: 270px 0px;
+    background-image: url('../images/Slide\ 16_9\ -\ 6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+  }
+
+  .hero_section a {
+    padding: 15px 50px;
+    background-color: var(--sec-color);
+    color: var(--text-color);
+text-decoration: none;
+border-radius: 2px;
+transition-duration: 0.5s;
+font-weight: bold;
+  }
+
+ 
+
+
+  .hero_section a:hover {
+  background-color: #fff;
+  color: #000000;
+  }
+
+
+  .email-security {
+    padding: 150px 0px;
+  }
+
+  .email-security .card {
+    background-color: #ffffff0a;
+    margin: 15px 0px;
+    height: 186px;
+  }
+
+  .email-security .card h5 {
+    color: var(--sec-color);
+  }
+
+
+  .being_phished {
+    /* background-color: #041C39; */
+    padding: 150px 0px;
+    /* background-image: url('../images/Surfaces_Cloud_LP_Hero@2x.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+
+  }
+
+  .being_phished h6 {
+    color: var(--text-color);
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: 100;
+    padding-top: 20px;
+  }
+
+  .circle-box {
+width: 550px;
+    height:550px;
+    border-radius: 100%;
+    padding: 90px;
+    background-image: url('../images/Untitled-2-01-01-01.png');
+    /* background-color: #3C67FF; */
+    box-shadow: rgba(11, 150, 231, 0.3) 0px 0px 20px, rgba(11, 109, 236, 0.3) 0px 0px 20px, rgba(9, 161, 231, 0.3) 0px 0px 20px;
+  }
+
+  .circle-box h2  {
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .being_phished .card {
+    background-color: #ffffff0a;
+    border: none;
+    color: #fff;
+    padding:40px 40px 30px 40px;
+   height: 376px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* border: 1px solid #fff; */
+   box-shadow: rgba(11, 150, 231, 0.3) 0px 0px 20px, rgba(11, 109, 236, 0.3) 0px 0px 20px, rgba(9, 161, 231, 0.3) 0px 0px 20px;
+  }
+
+  .being_phished .card img {
+    width: 100px;
+    padding-bottom: 20px;
+  }
+
+  .being_phished .card ul li {
+text-align: left;
+    font-weight: 100;
+    font-size: 14px;
+    list-style: none;
+  }
+
+  .being_phished  .card ul li:before {    
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 5px 0 -15px;
+    color:  var(--sec-color);
+}
+
+  .contact_form {
+    padding: 150px 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-image: url('../images/Slide\ 16_9\ -\ 5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact_form .contact-bg {
+    height: 80vh;
+/* From https://css.glass */
+background: rgb(255 255 255 / 9%);
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+box-shadow: rgba(3, 153, 240, 0.8) 0px 0px 10px;
+  }
+
+
+  .bg-img {
+    background-image: url('../images/solving-mental-problems-psychological-assistance.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:0px 6px 6px 0px;
+    background-position: center;
+    background-position: center;
+  }
+
+  .contact_form .info-contact {
+    padding: 50px;
+  }
+
+  .form_data {
+    padding: 40px 0px;
+  }
+
+  .form_data .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.form_data button {
+    height: 58px;
+    background-color: var(--sec-color);
+    color: var(--text-color);
+border-radius: 10px;
+transition-duration: 0.5s;
+font-weight: bold;
+}
+
+
+/*------------*/
+.form-area {
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+    padding: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-area .form-inner {
+    width: 100%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 19px;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #475F7B;
+    background-color: #FFF;
+    border: 1px solid #DFE3E7;
+    border-radius: .267rem;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #475F7B;
+    background-color: #FFF;
+    border-color: #5A8DEE;
+    outline: 0;
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 10%);
+}
+.intl-tel-input,
+.iti{
+  width: 100%;
+}
+
+
+
+.emails {
+/* height: 100vh; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 150px 0px;
+}
+.emails .emailbox {
+background-color: #000000;
+box-shadow: rgba(3, 153, 240, 0.8) 0px 0px 10px;
+}
+
+video.fullscreen {
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(0, 0, 0, 0.3);
+    padding: 0px;
+    height: 80vh;
+}
+
+.box_email {
+    padding: 50px;
+}
+
+.box_email p {
+    padding: 20px 0px 30px 0px;
+}
+
+
+
+.box_email a {
+    padding: 15px 50px;
+    background-color: var(--sec-color);
+    color: var(--text-color);
+text-decoration: none;
+border-radius: 2px;
+transition-duration: 0.5s;
+font-weight: bold;
+  }
+
+ 
+
+
+  .box_email a:hover {
+  background-color: #fff;
+  color: #000000;
+  }
+
+  .footer-section {
+    background-image: url('../images/Media\,951687\,smxx-2000x1173.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  footer {
+    padding: 50px 0px;
+    background: #000000de;
+  }
+
+  footer h5 {
+    padding-top: 0px;
+    color: #fff;
+    padding-bottom: 15px;
+  }
+
+  footer hr {
+    color: #fff;
+  }
+
+  footer .logos img {
+    height:40px;
+    padding-right: 10px;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0px;
+  }
+
+   
+
+  footer i {
+    color: #fff;
+    padding: 10px;
+  }
+
+  .logos {
+    display: grid;
+  }
+
+  .book_demo_flex  a {
+    padding: 15px 50px;
+    background-color: var(--sec-color);
+    color: var(--text-color);
+text-decoration: none;
+border-radius: 2px;
+transition-duration: 0.5s;
+font-weight: bold;
+position: fixed;
+bottom: 0;
+width: 94%;
+  }
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+  
+  
+ 
+  
+
+
+  
+
+  
